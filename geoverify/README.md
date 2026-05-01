@@ -1,1 +1,1 @@
-Geo Studios Site (FRONT PAGE WIP)
+GeoVerify Homepage
