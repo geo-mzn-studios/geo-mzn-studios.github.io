@@ -1,4 +1,5 @@
-<script>
+<html>
+  <script>
   function copyCode() {
     const text = document.getElementById("code-container").innerText;
   navigator.clipboard.writeText(text);
@@ -24,7 +25,5 @@ function generateCode() {
 
 const code = generateCode();
 document.getElementById("code").innerText = code;
-
-// Save it so user can copy later
-localStorage.setItem("verifyCode", code);
 </script>
+</html>  
