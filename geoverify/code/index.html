@@ -1,3 +1,11 @@
+<script>
+  function copyCode() {
+    const text = document.getElementById("code-container").innerText;
+  navigator.clipboard.writeText(text);
+  console.log(text);
+  alert("Copied!");
+  }
+</script>
 <h1 style="text-align: center;">Your GeoVerify Code:</h1>
 <body>
   <div id="code-container"><h1 style="text-align: center;" id="code"></h1></div>
